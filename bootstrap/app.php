@@ -22,7 +22,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'doctor' => \App\Http\Middleware\DoctorMiddleware::class,
             'admin_doctor' => \App\Http\Middleware\AdminDoctorMiddleware::class,
             'admin_nurse' => \App\Http\Middleware\AdminNurseMiddleware::class,
-            'admin_doctor_nurse' => \App\Http\Middleware\AdminNurseMiddleware::class,
+            'admin_doctor_nurse' => \App\Http\Middleware\AdminDoctorNurseMiddleware::class,
             'nurse' => \App\Http\Middleware\NurseMiddleware::class,
             'admin_nurse_pharmacist' => \App\Http\Middleware\AdminNursePharmacistMiddleware::class,
             'pharmacist' => \App\Http\Middleware\PharmacistMiddleware::class,
