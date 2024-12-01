@@ -110,7 +110,7 @@ http://localhost:8000/api/documentation
 
 ## Licenses
 - **Laravel**: This project is built using Laravel, which is licensed under the MIT License. See the [Laravel License](https://github.com/laravel/laravel/blob/master/LICENSE) for details.
-- **Project License**: This project itself is licensed under the MIT License.
+- **Project License**: This project itself is licensed under the  [GNU AGPLv3] License.
 
 ## ⭐ Give It a Star!
 If you found this project helpful or interesting, please give it a star on GitHub! It helps others discover the project and motivates us to keep improving it. 🌟  
