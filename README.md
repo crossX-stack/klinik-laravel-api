@@ -4,7 +4,7 @@ https://github.com/IslamTaleb11/klinik-vuejs
 # Klinik Laravel API
 
 ## Overview
-**Klinik Laravel API** is a robust backend solution built to manage clinic operations efficiently. This API is designed using **Laravel 11**, offering a RESTful architecture for handling essential clinic operations like appointments, patient management, doctor schedules, and more. With a focus on scalability and ease of integration, this API is suitable for frontend applications and large-scale clinic operations.
+**Klinik Laravel API** is a backend solution built to manage clinic operations. This API is designed using **Laravel 11**, offering a RESTful architecture for handling essential clinic operations like appointments, patient management, doctor schedules, and more. With a focus on scalability and ease of integration, this API is suitable for frontend applications.
 
 ---
 
