@@ -1,0 +1,17 @@
+# Ignore vendor and node_modules (if using frontend assets)
+vendor/
+node_modules/
+
+# Ignore environment and logs
+.env
+.env.local
+storage/logs/
+storage/framework/
+
+# Ignore cache files
+bootstrap/cache/
+
+# Ignore IDE and OS-specific files
+*.log
+*.DS_Store
+*.swp
