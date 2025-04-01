@@ -1,0 +1,28 @@
+databases:
+  - name: laravel-db
+    plan: free
+    databaseName: laravel_db
+    user: laravel_user
+
+services:
+  - type: web
+    name: laravel-backend
+    runtime: docker
+    repo: https://github.com/your-username/your-laravel-project
+    branch: main
+    plan: free
+    envVars:
+      - key: APP_KEY
+        generateValue: true
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DB_HOST
+        fromDatabase: laravel-db
+      - key: DB_PORT
+        value: 5432
+      - key: DB_DATABASE
+        fromDatabase: laravel-db
+      - key: DB_USERNAME
+        fromDatabase: laravel-db
+      - key: DB_PASSWORD
+        fromDatabase: laravel-db
