@@ -13,7 +13,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /var/www
 
-# Copy project files
+# Copy project files, excluding those in .dockerignore
 COPY . .
 
 # Ensure start.sh is executable
@@ -22,7 +22,7 @@ RUN chmod +x /var/www/start.sh
 # Install dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Set permissions for storage and cache
+# Set permissions for Laravel storage & cache
 RUN chmod -R 775 storage bootstrap/cache
 
 # Expose the Laravel port
